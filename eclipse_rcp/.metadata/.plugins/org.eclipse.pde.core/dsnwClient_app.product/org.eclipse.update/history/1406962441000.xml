@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<config date="1406963447307" transient="true" version="3.0">
+<config date="1406962441682" transient="true" version="3.0">
 <site enabled="true" list="plugins/javax.xml_1.3.4.v201005080400.jar,plugins/org.eclipse.osgi_3.10.0.v20140606-1445.jar,plugins/org.eclipse.equinox.app_1.3.200.v20130910-1609.jar,plugins/org.eclipse.equinox.registry_3.5.400.v20140428-1507.jar,plugins/org.eclipse.core.runtime.compatibility.registry_3.5.300.v20140128-0851,plugins/org.eclipse.core.jobs_3.6.0.v20140424-0053.jar,plugins/org.eclipse.equinox.preferences_3.5.200.v20140224-1527.jar,plugins/javax.annotation_1.2.0.v201401042248.jar,plugins/javax.servlet_3.0.0.v201112011016.jar,plugins/org.eclipse.osgi.compatibility.state_1.0.0.v20140403-1907.jar,plugins/org.eclipse.core.runtime_3.10.0.v20140318-2214.jar,plugins/org.eclipse.core.contenttype_3.4.200.v20140207-1251.jar,plugins/org.eclipse.osgi.services_3.4.0.v20140312-2051.jar,plugins/org.eclipse.equinox.common_3.6.200.v20130402-1505.jar,plugins/javax.inject_1.0.0.v20091030.jar" policy="USER-INCLUDE" updateable="true" url="file:/Applications/devlopes tools/luna-rcp/">
 <feature id="org.eclipse.ecf.filetransfer.httpclient4.feature" url="features/org.eclipse.ecf.filetransfer.httpclient4.feature_3.8.1.v20140528-1625/" version="3.8.1.v20140528-1625">
 </feature>

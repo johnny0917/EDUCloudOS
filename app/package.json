@@ -11,7 +11,7 @@
     "frame": false,
     "show_in_taskbar": false,
     "page-cache": true,
-    "always-on-top":true,
+    "always-on-top":false,
     "position":"center",
     "min_width":800,
     "max_width":1280,
