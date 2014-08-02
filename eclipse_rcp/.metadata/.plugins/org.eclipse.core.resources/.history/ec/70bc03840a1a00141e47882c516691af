@@ -3,6 +3,7 @@
 
 <product name="dsnw_client" uid="dsnw" id="dsnwClient_app.product" application="dsnwClient_app.application" version="1.0.0" useFeatures="false" includeLaunchers="true">
 
+
    <configIni use="default">
    </configIni>
 
@@ -13,16 +14,18 @@
 
    <windowImages/>
 
+
    <launcher>
-      <macosx icon="/dsnwClient_app/icons/educloudos.icns"/>
       <solaris/>
       <win useIco="false">
          <bmp/>
       </win>
    </launcher>
 
+
    <vm>
    </vm>
+
 
    <plugins>
       <plugin id="dsnwClient_app"/>

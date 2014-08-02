@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;dsnwClient_app/icons/2014080202012650_easyicon_net_128.icns&apos; to &apos;educloudos.icns&apos;" description="Rename resource &apos;2014080202012650_easyicon_net_128.icns&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="icons/2014080202012650_easyicon_net_128.icns" name="educloudos.icns" stamp="1406959328076" updateReferences="true"/>
+</session>

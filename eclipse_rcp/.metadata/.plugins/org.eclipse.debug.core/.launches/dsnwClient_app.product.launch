@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.pde.ui.RuntimeWorkbench">
+<booleanAttribute key="append.args" value="true"/>
+<booleanAttribute key="askclear" value="true"/>
+<booleanAttribute key="automaticAdd" value="false"/>
+<stringAttribute key="checked" value="[NONE]"/>
+<booleanAttribute key="clearws" value="false"/>
+<booleanAttribute key="default" value="false"/>
+<stringAttribute key="location" value="${workspace_loc}/../runtime-dsnwClient_app.product"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -ws ${target.ws} -arch ${target.arch} -nl ${target.nl} -consoleLog"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dosgi.requiredJavaVersion=1.7 -XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts -XX:MaxPermSize=256m -Xms40m -Xmx512m -Xdock:icon=../Resources/Eclipse.icns -XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts"/>
+<booleanAttribute key="pde.generated.config" value="true"/>
+<stringAttribute key="pde.version" value="3.3"/>
+<stringAttribute key="product" value="dsnwClient_app.product"/>
+<stringAttribute key="selected_target_plugins" value="javax.annotation*1.2.0.v201401042248,javax.inject*1.0.0.v20091030,javax.servlet*3.0.0.v201112011016,javax.xml*1.3.4.v201005080400,org.eclipse.core.contenttype*3.4.200.v20140207-1251,org.eclipse.core.jobs*3.6.0.v20140424-0053,org.eclipse.core.runtime*3.10.0.v20140318-2214,org.eclipse.core.runtime.compatibility.registry*3.5.300.v20140128-0851,org.eclipse.equinox.app*1.3.200.v20130910-1609,org.eclipse.equinox.common*3.6.200.v20130402-1505,org.eclipse.equinox.preferences*3.5.200.v20140224-1527,org.eclipse.equinox.registry*3.5.400.v20140428-1507,org.eclipse.osgi*3.10.0.v20140606-1445,org.eclipse.osgi.compatibility.state*1.0.0.v20140403-1907,org.eclipse.osgi.services*3.4.0.v20140312-2051"/>
+<stringAttribute key="selected_workspace_plugins" value="dsnwClient_app*1.0.0.qualifier,nw_agent4rcp*1.0.0.qualifier"/>
+<booleanAttribute key="useProduct" value="true"/>
+<booleanAttribute key="usefeatures" value="false"/>
+</launchConfiguration>

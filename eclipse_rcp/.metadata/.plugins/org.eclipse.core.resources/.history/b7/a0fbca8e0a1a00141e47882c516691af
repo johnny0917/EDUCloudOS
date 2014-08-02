@@ -14,7 +14,6 @@
    <windowImages/>
 
    <launcher>
-      <macosx icon="/dsnwClient_app/icons/educloudos.icns"/>
       <solaris/>
       <win useIco="false">
          <bmp/>
