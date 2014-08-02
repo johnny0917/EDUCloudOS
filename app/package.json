@@ -9,7 +9,7 @@
     "show": false,
     "toolbar": false,
     "frame": false,
-    "show_in_taskbar": false,
+    "show_in_taskbar": true,
     "page-cache": true,
     "always-on-top":false,
     "position":"center",
