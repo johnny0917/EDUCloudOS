@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DsnwClient_app
+Bundle-SymbolicName: dsnwClient_app;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: dsnwclient_app.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ nw_agent4rcp;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
