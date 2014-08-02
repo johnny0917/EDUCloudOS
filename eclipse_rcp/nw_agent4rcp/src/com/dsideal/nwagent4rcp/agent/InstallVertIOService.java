@@ -79,12 +79,29 @@ public class InstallVertIOService {
 	 * 启动node-webkit以及应用程序
 	 */
 	private void initNWApp() {
-		ProcessBuilder pb = new ProcessBuilder("." + File.separator + "nw.app"
-				+ File.separator + "Contents" + File.separator + "MacOS"
-				+ File.separator + "node-webkit", "app");
-		Map<String, String> env = pb.environment();
-		pb.directory(new File(Platform.getInstallLocation().getURL().getFile(),
-				"nw4mac"));
+		String osname = System.getProperty("os.name");
+		ProcessBuilder pb = null;
+		if (osname.toLowerCase().startsWith("win")) {
+			pb = new ProcessBuilder("." + File.separator + "nw.exe", ".."+File.separator+"app");
+			Map<String, String> env = pb.environment();
+			pb.directory(new File(Platform.getInstallLocation().getURL()
+					.getFile(), "nw4win"));
+		} else if (osname.toLowerCase().startsWith("mac")) {
+			pb = new ProcessBuilder("." + File.separator + "nw.app"
+					+ File.separator + "Contents" + File.separator + "MacOS"
+					+ File.separator + "node-webkit", "../app");
+			Map<String, String> env = pb.environment();
+			pb.directory(new File(Platform.getInstallLocation().getURL()
+					.getFile(), "nw4mac"));
+		} else if (osname.toLowerCase().startsWith("win")) {
+			pb = new ProcessBuilder("." + File.separator + "nw", "../app");
+			Map<String, String> env = pb.environment();
+			pb.directory(new File(Platform.getInstallLocation().getURL()
+					.getFile(), "nw4linux"));
+		} else {
+
+		}
+
 		pb.redirectErrorStream(true);
 		File logFile = new File(Platform.getInstallLocation().getURL()
 				.getFile().toString(), "startup.log");

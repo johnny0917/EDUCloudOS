@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: Nw_bundle
-Bundle-SymbolicName: nw_bundle
-Bundle-Version: 1.0.0.qualifier
-Bundle-Activator: nw_bundle.Activator
-Require-Bundle: org.eclipse.core.runtime
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
-Bundle-ActivationPolicy: lazy
